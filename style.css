@@ -91,10 +91,12 @@ main {
 }
 }
 @media only screen and (max-width: 767px) {
+
     body{
         background-image: url(img/mobile-background.png);
         background-repeat: repeat;
         background-size: 95%;
+
     }
 
     header{
@@ -129,4 +131,23 @@ main {
         width: 85vw;
         height: 25vh;
     }
-}
+
+    #zorg{
+        background-image: url(img/zorg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #techniek{
+        background-image: url(img/techniek.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .background{
+        background-color: white;
+    }
+    #roster{
+        text-align: center;
+    }
+  }
+
